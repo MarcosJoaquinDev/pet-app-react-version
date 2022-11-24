@@ -1,0 +1,28 @@
+.main{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+.info-container{
+  width:600px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.info-container__field{
+  display:flex;
+  justify-content:space-between;
+}
+.info__value{
+  color: cyan;
+}
+.info__value,
+.info__label{
+font-size: 24px;
+font-weight: 500;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+}

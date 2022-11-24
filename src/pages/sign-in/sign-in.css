@@ -1,0 +1,10 @@
+.container{
+  width: 100%;
+}
+.form{
+  margin:0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

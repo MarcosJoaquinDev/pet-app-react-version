@@ -1,0 +1,17 @@
+.information-container{
+  position: fixed;
+  z-index:1000;
+  left: 0;
+  top: 0px;
+  right: 0px;
+  bottom: 0;
+  background-color: #000000bd;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+}
+.form-container{
+  background-color:white;
+  padding:15px;
+}

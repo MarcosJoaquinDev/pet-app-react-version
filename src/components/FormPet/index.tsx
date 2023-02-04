@@ -42,7 +42,7 @@ const Title: React.FC = (props: { text: string }) => (
     {props.text}
   </h1>
 );
-const API_PUSH_PET = "https://dwf-m7-postgre-prueba.herokuapp.com/me/pet/";
+const API_PUSH_PET = "https://app-pet.onrender.com/me/pet";
 const setNewPet = async (token: string, pet: petProperties) => {
   const { name, type, race, url_picture, description, location, lat, lng } =
     pet;

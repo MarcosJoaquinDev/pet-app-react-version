@@ -7,7 +7,7 @@ type InfoPetPros = {
   petId: number;
   petName: string;
 };
-const URL_API_INFO = "https://dwf-m7-postgre-prueba.herokuapp.com/send-mail";
+const URL_API_INFO = "https://app-pet.onrender.com/send-mail";
 const sendInformationToTheOwner = async (idPet, name, phone, description) => {
   const response = await fetch(URL_API_INFO, {
     method: "POST",

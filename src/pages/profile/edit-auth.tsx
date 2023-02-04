@@ -53,9 +53,8 @@ const EmailField: React.FC = (props: propsField) => {
     </>
   );
 };
-const URL_API_TOKEN = "https://dwf-m7-postgre-prueba.herokuapp.com/auth/token";
-const URL_API_UPDATE =
-  "https://dwf-m7-postgre-prueba.herokuapp.com/me/password";
+const URL_API_TOKEN = "https://app-pet.onrender.com/auth/token";
+const URL_API_UPDATE = "https://app-pet.onrender.com/me/password";
 const getToken = async (email: string, password: string) => {
   const response = await fetch(URL_API_TOKEN, {
     method: "POST",

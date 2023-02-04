@@ -11,7 +11,7 @@ type DataUser = {
   user_name: string;
   email: string;
 };
-const URL_API = "https://dwf-m7-postgre-prueba.herokuapp.com/me";
+const URL_API = "https://app-pet.onrender.com/me";
 
 const EdithProfile: React.FC = () => {
   const data: DataUser = useRecoilValue<DataUser>(getUserData);

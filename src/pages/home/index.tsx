@@ -2,7 +2,7 @@ import React from "react";
 import { petsNearMeAtom } from "hooks/PetsNearMe";
 import { useRecoilState } from "recoil";
 import { useNavigate } from "react-router";
-const URL_API = "https://dwf-m7-postgre-prueba.herokuapp.com";
+const URL_API = "https://app-pet.onrender.com";
 
 const petsNearMe = async (lat, lng) => {
   const resp = await fetch(`${URL_API}/pets?lat=${lat}&lng=${lng}`, {

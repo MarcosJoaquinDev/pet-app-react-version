@@ -10,9 +10,9 @@ export const userDataAuth = atom({
     password:''
   },
 });
-const URL_API_EMAIL = 'https://dwf-m7-postgre-prueba.herokuapp.com/auth-email';
-const URL_API_AUTH = 'https://dwf-m7-postgre-prueba.herokuapp.com/auth';
-const URL_API_TOKEN = 'https://dwf-m7-postgre-prueba.herokuapp.com/auth/token';
+const URL_API_EMAIL = 'https://app-pet.onrender.com/auth-email';
+const URL_API_AUTH = 'https://app-pet.onrender.com/auth';
+const URL_API_TOKEN = 'https://app-pet.onrender.com/auth/token';
 
 export const checkInitPushNewUser = selector({
   key: 'getUserSignUp', // unique ID (with respect to other atoms/selectors)

@@ -13,8 +13,8 @@ type DataUser = {
   user_name:string,
   email:string
 }
-const URL_API_DATA_USER = 'https://dwf-m7-postgre-prueba.herokuapp.com/me';
-const URL_API_DATA_PETS = 'https://dwf-m7-postgre-prueba.herokuapp.com/me/pets';
+const URL_API_DATA_USER = 'https://app-pet.onrender.com/me';
+const URL_API_DATA_PETS = 'https://app-pet.onrender.com/me/pets';
 export const getUserData = selector({
   key: 'getUserData', // unique ID (with respect to other atoms/selectors)
   get:  async ({get}) => {

@@ -7,8 +7,8 @@ export const UserSignInAtom = atom({
     pass:''
   }, // default value (aka initial value)
 });
-const URL_API_EMAIL = 'https://dwf-m7-postgre-prueba.herokuapp.com/auth-email';
-const URL_API_TOKEN = 'https://dwf-m7-postgre-prueba.herokuapp.com/auth/token';
+const URL_API_EMAIL = 'https://app-pet.onrender.com/auth-email';
+const URL_API_TOKEN = 'https://app-pet.onrender.com/auth/token';
 
 export const getUserSignInToken = selector({
   key: 'getUserSignIn', // unique ID (with respect to other atoms/selectors)
